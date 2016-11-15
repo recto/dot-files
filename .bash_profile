@@ -2,6 +2,7 @@
 # The orginal version is saved in .bash_profile.pysave
 # export MAGICK_HOME=/opt/ImageMagick
 # PATH="${MAGICK_HOME}/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+export JAVA_HOME=$(/usr/libexec/java_home)
 PATH="/usr/local/bin:${PATH}"
 export PATH
 export PATH="$HOME/.rbenv/bin:$PATH"

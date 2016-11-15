@@ -112,7 +112,10 @@ let g:syntastic_check_on_wq = 0
 " Syntastic Java setup
 let g:syntastic_java_checkers=['javac']
 let g:syntastic_java_javac_config_file_enabled = 1
-let g:syntastic_java_javac_classpath = "./src/main/java:./src/main/resources:./src/test/java:./src/test/resources"
+let g:syntastic_java_javac_classpath = "./src/main/java:./src/main/resources:./src/test/java:./src/test/resources:./lib/*"
+
+" Syntastic Python setup
+let g:syntastic_python_python_exec="${HOME}/.venv3/py3.5/bin/python"
 
 " Comand-T
 let g:CommandTWildIgnore=&wildignore . ",*.pyc,*.class,*/build/*"
