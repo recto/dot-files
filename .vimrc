@@ -114,6 +114,10 @@ let g:syntastic_java_checkers=['javac']
 let g:syntastic_java_javac_config_file_enabled = 1
 let g:syntastic_java_javac_classpath = "./src/main/java:./src/main/resources:./src/test/java:./src/test/resources"
 
+" Syntastic Python version
+let g:syntastic_python_python_exec = '$HOME/.venv3/python3/bin/python'
+let $PYTHONPATH = '.'
+
 " Comand-T
 let g:CommandTWildIgnore=&wildignore . ",*.pyc,*.class,*/build/*"
 

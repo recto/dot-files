@@ -9,7 +9,7 @@ eval "$(rbenv init -)"
 export EDITOR='vim'
 alias tmux="TERM=xterm-256color tmux"
 # Python - virtualenv
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
 # Python 2
