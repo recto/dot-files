@@ -32,6 +32,7 @@ Plugin 'cohlin/vim-colorschemes'
 Plugin 'tpope/vim-rbenv'
 Plugin 'tpope/vim-markdown'
 Plugin 'tfnico/vim-gradle'
+Plugin 'fatih/vim-go'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
